@@ -2,72 +2,244 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ariel Scott | CS Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ariel Scott's computer science portfolio and programming projects.">
+    <title>Ariel Scott | CS Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <header>
-    <h2>A.S.</h2>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+    <header>
+        <nav class="container">
+            <a class="logo" href="#home">A.S.</a>
 
-  <section id="home">
-    <p>COMPUTER SCIENCE STUDENT</p>
-    <h1>Hi, I'm Ariel Scott.</h1>
-    <p>I'm a computer science student at Illinois Institute of Technology
-      building my programming and software development skills.</p>
-    <a href="#projects">View My Projects</a>
-  </section>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I'm Ariel Scott, a computer science student interested in
-      software development, back-end programming, and cybersecurity.
-      I enjoy learning how software works and applying my skills
-      through programming projects and teamwork.</p>
-  </section>
+    <main>
+        <!-- HERO -->
+        <section class="hero container" id="home">
+            <p class="eyebrow">COMPUTER SCIENCE STUDENT</p>
 
-  <section id="projects">
-    <h2>My Projects</h2>
+            <h1>Hi, I'm <span>Ariel Scott.</span></h1>
 
-    <article>
-      <h3>Course Registration System</h3>
-      <p><strong>Language:</strong> Java</p>
-      <p>Implemented a course registration program using object-oriented
-        programming to represent students and courses and manage
-        course registration.</p>
-    </article>
+            <p class="intro">
+                I'm a computer science student at Illinois Institute of
+                Technology developing my skills in programming,
+                software development, and back-end systems.
+            </p>
 
-    <article>
-      <h3>Banking Website Simulation</h3>
-      <p><strong>Language:</strong> Java</p>
-      <p>Collaborated with a team to create an online banking simulation.
-        Contributed to the back end and implemented the money transfer
-        feature.</p>
-    </article>
+            <div class="hero-buttons">
+                <a class="button" href="#projects">Explore My Projects</a>
+                <a class="button button-outline"
+                   href="mailto:aajscott01@gmail.com">Contact Me</a>
+            </div>
 
-    <article>
-      <h3>Doubly Linked List</h3>
-      <p><strong>Language:</strong> Python</p>
-      <p>Implemented a doubly linked list and used automated tests
-        to check its behavior.</p>
-    </article>
-  </section>
+            <div class="hero-label">
+                JAVA · PYTHON · COMPUTER SCIENCE
+            </div>
+        </section>
 
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <p>Interested in connecting about projects or opportunities?</p>
-    <a href="mailto:aajscott01@gmail.com">aajscott01@gmail.com</a>
-  </section>
+        <!-- ABOUT -->
+        <section class="section container" id="about">
+            <p class="eyebrow">01 / ABOUT ME</p>
+            <h2>A little about me</h2>
 
-  <footer>
-    <p>&copy; 2026 Ariel Scott | Computer Science Portfolio</p>
-  </footer>
+            <div class="about-content">
+                <p>
+                    My name is Ariel Scott, and I'm a computer science
+                    student at Illinois Institute of Technology.
+                    I'm building a foundation in programming,
+                    object-oriented design, data structures, and
+                    software development.
+                </p>
+
+                <p>
+                    Through individual assignments and team projects,
+                    I've gained experience implementing program
+                    features, working with multiple files, and testing
+                    code. I'm also interested in learning more about
+                    cybersecurity and how to build reliable software.
+                </p>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="section projects-section" id="projects">
+            <div class="container">
+                <p class="eyebrow">02 / MY WORK</p>
+                <h2>Computer science projects</h2>
+
+                <p class="section-intro">
+                    Here are three projects that have helped me develop
+                    my programming and problem-solving skills.
+                </p>
+
+                <div class="project-grid">
+
+                    <!-- PROJECT 1 -->
+                    <article class="project-card">
+                        <p class="project-number">PROJECT 01 · JAVA</p>
+
+                        <h3>Course Registration System</h3>
+
+                        <p>
+                            Implemented a Java course registration
+                            program using object-oriented programming.
+                            The project models students and courses
+                            and supports course registration
+                            functionality.
+                        </p>
+
+                        <div class="tags">
+                            <span>Java</span>
+                            <span>OOP</span>
+                            <span>Classes &amp; Interfaces</span>
+                        </div>
+
+                        <a class="project-link"
+                           href="https://github.com/Ariel1750/course-registration-system"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            View Source Code ↗
+                        </a>
+
+                        <p class="link-note">
+                            The repository is private, so visitors
+                            need permission to view the source code.
+                        </p>
+                    </article>
+
+                    <!-- PROJECT 2 -->
+                    <article class="project-card">
+                        <p class="project-number">PROJECT 02 · JAVA</p>
+
+                        <h3>Banking Website Simulation</h3>
+
+                        <p>
+                            Collaborated with a team to develop a
+                            banking website simulation. Contributed
+                            to the Java back end and implemented
+                            the money transfer feature. This project
+                            strengthened my programming, problem-solving,
+                            and teamwork skills.
+                        </p>
+
+                        <div class="tags">
+                            <span>Java</span>
+                            <span>Back-End Development</span>
+                            <span>Money Transfer</span>
+                            <span>Teamwork</span>
+                        </div>
+
+                        <div class="project-actions">
+                            <a class="project-link"
+                               href="https://www.figma.com/slides/TcqZ055zu66fTMGDBJ5cl6/Complete-Banking-Prototype?node-id=13-197"
+                               target="_blank"
+                               rel="noopener noreferrer">
+                                View Banking Prototype ↗
+                            </a>
+
+                            <a class="project-link"
+                               href="https://docs.google.com/presentation/d/1D2TL4jyOf-aJ9XkoI3eVr6ycs4a7OonPl7zH2EHeSVs/edit"
+                               target="_blank"
+                               rel="noopener noreferrer">
+                                View Project Presentation ↗
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- PROJECT 3 -->
+                    <article class="project-card">
+                        <p class="project-number">PROJECT 03 · PYTHON</p>
+
+                        <h3>Doubly Linked List</h3>
+
+                        <p>
+                            Implemented a doubly linked list in Python,
+                            working with nodes and links between
+                            neighboring elements. Used automated tests
+                            to check the implementation.
+                        </p>
+
+                        <div class="tags">
+                            <span>Python</span>
+                            <span>Data Structures</span>
+                            <span>Pytest</span>
+                        </div>
+
+                        <p class="project-link unavailable">
+                            Source code link coming soon
+                        </p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="section container" id="skills">
+            <p class="eyebrow">03 / SKILLS</p>
+            <h2>What I'm learning</h2>
+
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Programming Languages</h3>
+                    <p>Java and Python</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Computer Science</h3>
+                    <p>
+                        Object-oriented programming and data structures
+                    </p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Development</h3>
+                    <p>Debugging, code implementation, and testing</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Collaboration</h3>
+                    <p>Team projects and problem-solving</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="section contact-section" id="contact">
+            <div class="container">
+                <p class="eyebrow">04 / CONTACT</p>
+                <h2>Let's connect.</h2>
+
+                <p>
+                    I'm interested in connecting about projects,
+                    professional development, and opportunities to
+                    keep learning.
+                </p>
+
+                <a class="button"
+                   href="mailto:aajscott01@gmail.com">
+                    Email Me: aajscott01@gmail.com
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container footer-content">
+            <p>© 2026 Ariel Scott</p>
+            <p>Computer Science Portfolio · A.S.</p>
+        </div>
+    </footer>
 </body>
 </html>
